@@ -1,0 +1,38 @@
+// The program input for token_alyap/src/main.leo
+[mint_private]
+amount: u64 = 1000u64;
+
+[mint_public]
+amount: u64 = 1000u64;
+
+
+[transfer_private]
+amount: u64 = 1000u64;
+receiver: address = aleo1zpswmewfylkhcf6n5a0x2ptydyv462v6zlkqlgfmelegj4uqcuxqxfkqy7;
+input: Token = Token {
+  owner: aleo1qq30mhh300x8gh38utncnm0k6zdfa9z4ez3583hd6gc943fnj58qzmc05l,
+  amount: 1000u64,
+  _nonce: 6856597124872268882542305866757803862009039143501133807718252568503881025289group
+};
+
+[transfer_public]
+amount: u64 = 1000u64;
+receiver: address = aleo1zpswmewfylkhcf6n5a0x2ptydyv462v6zlkqlgfmelegj4uqcuxqxfkqy7;
+
+[transfer_private_to_public]
+amount: u64 = 1000u64;
+receiver: address = aleo1zpswmewfylkhcf6n5a0x2ptydyv462v6zlkqlgfmelegj4uqcuxqxfkqy7;
+input: Token = Token {
+  owner: aleo1qq30mhh300x8gh38utncnm0k6zdfa9z4ez3583hd6gc943fnj58qzmc05l,
+  amount: 1000u64,
+  _nonce: 6856597124872268882542305866757803862009039143501133807718252568503881025289group
+};
+
+[transfer_public_to_private]
+amount: u64 = 1000u64;
+receiver: address = aleo1zpswmewfylkhcf6n5a0x2ptydyv462v6zlkqlgfmelegj4uqcuxqxfkqy7;
+
+// Test Accounts
+// Private Key  APrivateKey1zkpE3rjDUwmcytjCKGWwQ8wEKcD2DcCcBBvmLaXypV1dpjH
+// View Key     AViewKey1cv5AvUfG5JkD3AJozxifYMiuEJjQuXGThAHT6sAiqDMR
+// Address      aleo1zpswmewfylkhcf6n5a0x2ptydyv462v6zlkqlgfmelegj4uqcuxqxfkqy7
