@@ -32,6 +32,18 @@ input: Token = Token {
 amount: u64 = 1000u64;
 receiver: address = aleo1zpswmewfylkhcf6n5a0x2ptydyv462v6zlkqlgfmelegj4uqcuxqxfkqy7;
 
+[join]
+input1: Token = Token {
+  owner: aleo1qq30mhh300x8gh38utncnm0k6zdfa9z4ez3583hd6gc943fnj58qzmc05l,
+  amount: 1000u64,
+  _nonce: 8284355373446897349800318481391309697975756764117847543618573809869407801353group
+};
+input2: Token = Token {
+  owner: aleo1qq30mhh300x8gh38utncnm0k6zdfa9z4ez3583hd6gc943fnj58qzmc05l,
+  amount: 1000u64,
+  _nonce: 6856597124872268882542305866757803862009039143501133807718252568503881025289group
+};
+
 // Test Accounts
 // Private Key  APrivateKey1zkpE3rjDUwmcytjCKGWwQ8wEKcD2DcCcBBvmLaXypV1dpjH
 // View Key     AViewKey1cv5AvUfG5JkD3AJozxifYMiuEJjQuXGThAHT6sAiqDMR

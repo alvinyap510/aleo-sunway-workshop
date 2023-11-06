@@ -78,10 +78,10 @@ program token_alyap.aleo {
         Mapping::set(balance, sender, sender_prev_balance - amount);
     }
 
-    transition join(input1: Token, input2: Token) -> {
+    transition join(input1: Token, input2: Token) -> Token {
         return Token {
             owner: self.caller,
             amount: input1.amount + input2.amount,
-        }
+        };
     }
 }
